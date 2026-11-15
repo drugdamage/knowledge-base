@@ -1,14 +1,14 @@
-# Заметки по веб-безопасности
+# Web Security Notes
 
-Моя подготовка по HTTP, SSRF и CSRF.
+Basic notes on HTTP, SSRF, CSRF, and Burp Suite.
 
-- [Теория](THEORY.md) — основные понятия, защита и работа с баг-репортами.
-- [Моя практика](PRACTICE.md) — проверка запроса в Burp Suite и разбор условной задачи.
+- [Theory](THEORY.md)
+- [Practice](PRACTICE.md)
 
-## Что я сейчас знаю
+## Skills
 
-- Как читать HTTP-запросы и ответы: метод, путь, заголовки, тело и статус.
-- Для чего нужны cookie и сессии, чем отличаются `Cookie` и `Set-Cookie`.
-- Основы SSRF и CSRF, назначение allowlist, CSRF-токена и SameSite.
-- Как найти запрос в Burp HTTP history и повторить его через Repeater.
-- Как отделять наблюдаемый результат от предположений и возможных последствий.
+- Reading HTTP requests and responses
+- Understanding cookies and sessions
+- Finding and replaying requests in Burp Suite
+- Understanding SSRF and CSRF basics
+- Reviewing test results and bug reports
