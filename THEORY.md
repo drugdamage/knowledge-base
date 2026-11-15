@@ -41,8 +41,6 @@ email=student%40example.com
 
 Например, `200 OK` сообщает об успешной обработке, а `403 Forbidden` — об отказе. При проверке смены почты нужно также открыть профиль и посмотреть, какой адрес сохранился. Так проверяется результат самого действия.
 
-Подробнее: [MDN — обзор HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview), [MDN — устройство HTTP-сообщений](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Messages).
-
 ## Cookie и сессия
 
 **Cookie** — небольшая пара «имя=значение», которую браузер хранит и отправляет в подходящих запросах. Она может хранить, например, настройку языка или идентификатор сессии.
@@ -65,8 +63,6 @@ email=student%40example.com
 
 Идентификатор сессии — отдельное значение: он не равен паролю или CSRF-токену. Cookie может существовать и до входа в аккаунт. Сервер может её обновлять; новый визит не обязательно означает новый идентификатор.
 
-Подробнее: [MDN — cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies), [OWASP — управление сессиями](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html).
-
 ## SSRF: запрос выполняет сервер
 
 **SSRF (Server-Side Request Forgery)** — ошибка, позволяющая через приложение заставить сервер обратиться к ресурсу, обращения к которому эта функция не должна допускать.
@@ -86,8 +82,6 @@ email=student%40example.com
 ### Для чего нужен allowlist
 
 **Allowlist** — список разрешённых адресов или сервисов. Если функция должна обращаться только к известным складам, сервер проверяет назначение по этому списку. Дополнительно сетевые правила могут ограничивать соединения приложения только нужными сервисами.
-
-Подробнее: [PortSwigger — SSRF](https://portswigger.net/web-security/ssrf), [OWASP — защита от SSRF](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html).
 
 ## CSRF: запрос выполняет браузер пользователя
 
@@ -126,8 +120,6 @@ email=student%40example.com
 | CSRF-токен | Дополнительное значение, которое сервер проверяет для защищённого действия. |
 | SameSite | Правило отправки cookie, которое применяет браузер. |
 
-Подробнее: [PortSwigger — CSRF](https://portswigger.net/web-security/csrf), [OWASP — защита от CSRF](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html).
-
 ### Короткое сравнение
 
 | Вопрос | SSRF | CSRF |
@@ -156,4 +148,14 @@ email=student%40example.com
 
 В начале отчёта указывают, выполнена ли проверка на сайте или разбирается условная задача. Запросы, ответы и снимки экрана прикладывают, если они доступны. Пароли, значения сессий и токены в таких материалах скрывают с помощью `<REDACTED>`.
 
-Подробнее: [HackerOne — качество отчётов](https://docs.hackerone.com/en/articles/8475116-quality-reports).
+## Ресурсы
+
+- [MDN — обзор HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview)
+- [MDN — устройство HTTP-сообщений](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Messages)
+- [MDN — cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies)
+- [OWASP — управление сессиями](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)
+- [PortSwigger — SSRF](https://portswigger.net/web-security/ssrf)
+- [OWASP — защита от SSRF](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
+- [PortSwigger — CSRF](https://portswigger.net/web-security/csrf)
+- [OWASP — защита от CSRF](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
+- [HackerOne — качество отчётов](https://docs.hackerone.com/en/articles/8475116-quality-reports)

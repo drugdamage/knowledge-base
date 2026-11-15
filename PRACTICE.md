@@ -36,8 +36,6 @@
 
 Результат записан вручную по выполненной проверке. Полный HTTP-экспорт и снимки экрана не приложены.
 
-Материалы: [учебная лаборатория](https://portswigger.net/web-security/ssrf/lab-basic-ssrf-against-localhost), [Burp Repeater](https://portswigger.net/burp/documentation/desktop/tools/repeater).
-
 ## CSRF: разбор условной задачи
 
 **Условная учебная задача. Практический тест на сайте не выполнялся.**
@@ -70,4 +68,8 @@
 
 Наличие и правильность CSRF-токена проверяются до записи новой почты. Если проверка не пройдена, сервер отклоняет действие, а прежний адрес остаётся в профиле.
 
-Подробнее: [OWASP — проверка CSRF-токена](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#synchronizer-token-pattern).
+## Ресурсы
+
+- [учебная лаборатория](https://portswigger.net/web-security/ssrf/lab-basic-ssrf-against-localhost)
+- [Burp Repeater](https://portswigger.net/burp/documentation/desktop/tools/repeater)
+- [OWASP — проверка CSRF-токена](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#synchronizer-token-pattern)
