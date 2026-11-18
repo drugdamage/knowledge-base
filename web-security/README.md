@@ -2,5 +2,5 @@
 
 Study notes on HTTP, cookies, sessions, SSRF, CSRF, and Burp Suite.
 
-- [Theory](THEORY.md)
-- [Practice](PRACTICE.md)
+- [Theory (Word)](web%20security%20notes.docx)
+- [Practice (Word)](web%20security%20practice.docx)
