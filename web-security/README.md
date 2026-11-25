@@ -1,6 +1,6 @@
 # Web Security
 
-Study notes on networking fundamentals, HTTP, cookies, sessions, SSRF, CSRF, and Burp Suite.
+Study notes on HTTP, IPv4, access control, web vulnerabilities, OWASP Top 10, and report triage.
 
 [Theory](theory/)
 
