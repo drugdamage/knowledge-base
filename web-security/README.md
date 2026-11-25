@@ -2,5 +2,5 @@
 
 Study notes on networking fundamentals, HTTP, cookies, sessions, SSRF, CSRF, and Burp Suite.
 
-- [Theory](THEORY.md)
-- [Practice](PRACTICE.md)
+- [Theory](theory/THEORY.md)
+- [Practice](practice/)
